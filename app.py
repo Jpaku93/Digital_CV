@@ -57,9 +57,9 @@ with col2:
     
 
     # ------ Details ------
-    st.markdown(f"📧**{EMAIL}**")
-    st.markdown(f"📱**{PHONE}**")
-    st.markdown(f"📫**{ADDRESS}**")
+    st.markdown(f"📧{EMAIL}")
+    st.markdown(f"📱{PHONE}")
+    st.markdown(f"📫{ADDRESS}")
     
     st.markdown(f"[LinkedIn]({SOCIAL_MEDIA['LINKEDIN']}) | [GitHub]({SOCIAL_MEDIA['GIT_HUB']})")
 
@@ -68,7 +68,7 @@ with col2:
 st.write("---")
 st.subheader("Experience & Qualifications")
 st.write("""
-    - ✔️** (2020 - 2022) Bachelor of Software Engineering, AI** - Media Design School, Auckland, New Zealand
+    - ✔️Bachelor of Software Engineering, AI (2020 - 2022) Media Design School, Auckland, New Zealand 
     - ✔️Experience with data analysis and machine learning
     - ✔️Experience with data visualization and dashboarding
     - ✔️Experience with data engineering and data pipelines
