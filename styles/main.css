@@ -17,7 +17,7 @@ ul {
     list-style-type: none;
 }
 
-body {
+a::backdrop {
     background-image: url("https://github.com/Jpaku93/Digital_CV/blob/main/assets/BGImage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
