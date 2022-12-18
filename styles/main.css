@@ -6,6 +6,8 @@ a {
     text-decoration: none;
     color: white !important;
     font-weight: 500;
+    background-image: url("https://github.com/Jpaku93/Digital_CV/blob/main/assets/BGImage.jpg");
+    background-color: #cccccc;
 }   
 
 a:hover {
@@ -17,10 +19,6 @@ ul {
     list-style-type: none;
 }
 
-body {
-    background-image: url("https://github.com/Jpaku93/Digital_CV/blob/main/assets/BGImage.jpg");
-    background-color: #cccccc;
-}
 
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
