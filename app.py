@@ -8,6 +8,7 @@ current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "JohnsonPaku-Resume.pdf"
 profile_pic = current_dir / "assets" / "profile_pic.jpg"
+page_bg_image = current_dir / "assets" / "BGImage.jpg"
 
 # ------ general settings ------
 PAGE_TITLE = "Digital CV | Johnson Paku"
@@ -38,6 +39,8 @@ with open(resume_file, "rb") as f:
     resume = f.read()
     
 profile_pic = Image.open(profile_pic)
+
+st.markdown(f"""<style>body {{background-image: url("data:image/jpg;base64,{base64.b64encode(open(page_bg_image, "rb").read()).decode()}");background-size: cover;}}</style>""", unsafe_allow_html=True)
 
 # ------ HEROSECTION------
 col1, col2 =  st.columns([1, 3])
