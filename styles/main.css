@@ -17,6 +17,11 @@ ul {
     list-style-type: none;
 }
 
+body {
+    background-image: url("paper.gif");
+    background-color: #cccccc;
+}
+
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 header {visibility: hidden;}
