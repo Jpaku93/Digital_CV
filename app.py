@@ -84,7 +84,7 @@ st.write("""
     - ➤ Spatial analytics project to analyze people's foot traffic in office
     - ➤ Built a WIFI probing device and Fisheye lens camera person detection with Raspberry PI to collect data
     - ➤ Built Azure data pipeline - process, visualize on PowerBI
-    - ➤ Selected as project Manager in a team of 4 students
+    - ➤ Project Manager in a team of 4 students
          """)
 st.write("#")
 st.write("**💼 Research Assistant**, | **Media Design School** ")
