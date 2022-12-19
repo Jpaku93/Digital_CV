@@ -64,8 +64,7 @@ with col2:
     
     st.markdown(f"[LinkedIn]({SOCIAL_MEDIA['LINKEDIN']}) | [GitHub]({SOCIAL_MEDIA['GIT_HUB']})")
 
-            
-# ------ EXPERIENCE & QUALIFICATIONS ------
+# ------ QUALIFICATIONS ------
 st.write("---")
 st.subheader("Experience & Qualifications")
 st.write("""
@@ -75,6 +74,24 @@ st.write("""
     - ✔️Experience with data engineering and data pipelines
     - ✔️Excellent communication skills and team player
 """)
+
+# ------ EXPERIENCE ------
+st.write("---")
+st.subheader("Experience")
+st.write("**Data Science**, **Ai Engineer** | **Internship** | **Datacom** ")
+st.write("Auckland, New Zealand (July 2022 - Nov 2022) - Complete")
+st.write("""
+    - Spatial analytics project to analyze people's foot traffic in office
+    - Built a WIFI probing device and Fisheye lens camera person detection with Raspberry PI to collect data
+    - Built Azure data pipeline - process, visualize on PowerBI
+    - Selected as project Manager in a team of 4 students
+         """)
+st.write("#")
+st.write("**Research Assistant**, | **Media Design School** ")
+st.write("Auckland, New Zealand (Nov 2022 - Feb 2022) - Present")
+st.write("""
+    - Investigating data augmentation as a method to train visual recognition for indigenous data
+        """)
 
 # ------ TECHNICAL SKILLS ------
 st.write("---")
@@ -87,14 +104,3 @@ st.write("""
     - 🗨️󠁄󠁄 **Languages:** Fluent in English 
 """)
             
-# ------ Work History ------
-st.write("---")
-st.subheader("Work History")
-st.write("**Data Science**, **Ai Engineer** | **Internship** | **Datacom** ")
-st.write("Auckland, New Zealand (July 2022 - Nov 2022) - Complete")
-st.write("""
-    - Spatial analytics project to analyze people's foot traffic in office
-    - Built a WIFI probing device and Fisheye lens camera person detection with Raspberry PI to collect data
-    - Built Azure data pipeline - process, visualize on PowerBI
-    - Selected as project Manager in a team of 4 students
-         """)
