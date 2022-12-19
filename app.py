@@ -76,7 +76,7 @@ st.write("""
 
 # ------ EXPERIENCE ------
 st.write("---")
-st.subheader("Experience")
+st.subheader("Work History")
 st.write("**💼 Data Science**, **Ai Engineer** | **Internship** | **Datacom** ")
 st.write("Auckland, New Zealand (July 2022 - Nov 2022) - Complete")
 st.write("""
