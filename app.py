@@ -6,9 +6,8 @@ import base64
 # ----- path settings -----
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "JohnsonPaku-Resume (2022).pdf"
+resume_file = current_dir / "assets" / "JohnsonPaku-Resume(2022).pdf"
 profile_pic = current_dir / "assets" / "profile_pic.jpg"
-page_bg_image = current_dir / "assets" / "BGImage.jpg"
 
 # ------ general settings ------
 PAGE_TITLE = "Digital CV | Johnson Paku"
