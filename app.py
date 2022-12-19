@@ -40,7 +40,7 @@ with open(resume_file, "rb") as f:
     
 profile_pic = Image.open(profile_pic)
 
-st.markdown(f"""<style>body {{background-image: url("data:image/jpg;base64,{base64.b64encode(open(page_bg_image, "rb").read()).decode()}");background-size: cover;}}</style>""", unsafe_allow_html=True)
+st.markdown(f"""<style>body {{background-image: url("https://github.com/Jpaku93/Digital_CV/blob/main/assets/BGImage.jpg");background-size: cover;}}</style>""", unsafe_allow_html=True)
 
 # ------ HEROSECTION------
 col1, col2 =  st.columns([1, 3])
