@@ -102,4 +102,10 @@ st.write("""
     - 🗃️ **Data engineering:** Azure, SSMS, MySQL
     - 🗨️󠁄󠁄 **Languages:** Fluent in English 
 """)
-            
+    
+# ------ Projects ------
+st.write("---")
+st.subheader("Technical Skills")
+st.write("""
+    Work in progress
+""")        
