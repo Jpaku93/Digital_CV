@@ -107,5 +107,6 @@ st.write("""
 st.write("---")
 st.subheader("Projects")
 st.write("""
-    Work in progress
-""")        
+    Work in progress check out my github for more projects
+""")     
+st.markdown(f"[LinkedIn]({SOCIAL_MEDIA['GIT_HUB']})")   
