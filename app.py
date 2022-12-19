@@ -6,7 +6,7 @@ import base64
 # ----- path settings -----
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "JohnsonPaku-Resume.pdf"
+resume_file = current_dir / "assets" / "JohnsonPaku-Resume(2022).pdf"
 profile_pic = current_dir / "assets" / "profile_pic.jpg"
 page_bg_image = current_dir / "assets" / "BGImage.jpg"
 
@@ -87,3 +87,14 @@ st.write("""
     - 🗨️󠁄󠁄 **Languages:** Fluent in English 
 """)
             
+# ------ Work History ------
+st.write("---")
+st.subheader("Work History")
+st.write("** Data Science, Ai Engineer | Internship | Datacom **")
+st.write("(July 2022 - Nov 2022) - completed")
+st.write("""
+    - Spatial analytics project to analyze people's foot traffic in office
+    - Built a WIFI probing device and Fisheye lens camera person detection with Raspberry PI to collect data
+    - Built Azure data pipeline - process, visualize on PowerBI
+    - Selected as project Manager in a team of 4 students
+         """)
