@@ -64,9 +64,9 @@ with col2:
 # ------ ABOUT ME ------
 st.write("#")
 st.write("""A recent graduate in Bachelor of Software Engineering (AI) looking for full
-time role. **Strong coding skills*** and interested in **ML/AI** and **data analytics**,
-Open to learn various technical roles such as **Cloud Computing**
-infrastructure and pipelines with working knowledge of **SQL**, **REST API**
+time role. With **Strong coding skills** and an interest in **ML/AI** and **data analytics**,
+various technical roles such as **Cloud Computing**
+infrastructure and pipelines will also occupy my passion in a technical role with working knowledge of **SQL**, **REST API**
 """)
 # ------ QUALIFICATIONS ------
 st.write("---")
