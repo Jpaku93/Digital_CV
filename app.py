@@ -90,7 +90,7 @@ st.write("""
 # ------ Work History ------
 st.write("---")
 st.subheader("Work History")
-st.write("** Data Science, Ai Engineer | Internship | Datacom **")
+st.write("**Data Science**, **Ai Engineer** | **Internship** | **Datacom** ")
 st.write("(July 2022 - Nov 2022) - completed")
 st.write("""
     - Spatial analytics project to analyze people's foot traffic in office
