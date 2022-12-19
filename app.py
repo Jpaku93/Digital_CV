@@ -51,7 +51,7 @@ with col2:
         # download bytes file
         b64 = base64.b64encode(resume).decode()
         # download link
-        href = f'<a href="data:file/pdf;base64,{b64}" download="JohnsonPaku-Resume.pdf">Download Resume</a>'
+        href = f'<a href="data:file/pdf;base64,{b64}" download="JohnsonPaku-Resume.pdf">click here to download resume</a>'
         # download
         st.markdown(href, unsafe_allow_html=True)
     
