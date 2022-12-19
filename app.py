@@ -78,7 +78,7 @@ st.write("""
 # ------ EXPERIENCE ------
 st.write("---")
 st.subheader("Experience")
-st.write("**▶Data Science**, **Ai Engineer** | **Internship** | **Datacom** ")
+st.write("**💼 Data Science**, **Ai Engineer** | **Internship** | **Datacom** ")
 st.write("Auckland, New Zealand (July 2022 - Nov 2022) - Complete")
 st.write("""
     - • Spatial analytics project to analyze people's foot traffic in office
@@ -87,7 +87,7 @@ st.write("""
     - • Selected as project Manager in a team of 4 students
          """)
 st.write("#")
-st.write("**▶Research Assistant**, | **Media Design School** ")
+st.write("**💼 Research Assistant**, | **Media Design School** ")
 st.write("Auckland, New Zealand (Nov 2022 - Feb 2022) - Present")
 st.write("""
     - • Investigating data augmentation as a method to train visual recognition for indigenous data
