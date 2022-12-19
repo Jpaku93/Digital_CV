@@ -40,7 +40,7 @@ with open(resume_file, "rb") as f:
 profile_pic = Image.open(profile_pic)
 
 # ------ HEROSECTION------
-col1, col2 =  st.columns([1, 3])
+col1, col2, col3 =  st.columns([1, 4])
 with col1:
     st.image(profile_pic, width = 295)
 
@@ -55,14 +55,18 @@ with col2:
         # download
         st.markdown(href, unsafe_allow_html=True)
     
-
     # ------ Details ------
     st.markdown(f"📧{EMAIL}")
     st.markdown(f"📱{PHONE}")
     st.markdown(f"📫{ADDRESS}")
-    
     st.markdown(f"[LinkedIn]({SOCIAL_MEDIA['LINKEDIN']}) | [GitHub]({SOCIAL_MEDIA['GIT_HUB']})")
 
+with col3:
+    st.write("""A recent graduate in Bachelor of Software Engineering (AI) looking for full
+time role. **Strong coding skills*** and interested in **ML/AI** and **data analytics**,
+Open to learn various technical roles such as **Cloud Computing**
+infrastructure and pipelines with working knowledge of **SQL**, **REST API**
+""")
 # ------ QUALIFICATIONS ------
 st.write("---")
 st.subheader("Experience & Qualifications")
