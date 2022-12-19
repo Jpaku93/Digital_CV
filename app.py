@@ -42,7 +42,7 @@ profile_pic = Image.open(profile_pic)
 # ------ HEROSECTION------
 col1, col2 =  st.columns([1, 3])
 with col1:
-    st.image(profile_pic, width = 250)
+    st.image(profile_pic, width = 280)
 
 with col2:
     st.title(NAME)
@@ -105,7 +105,7 @@ st.write("""
     
 # ------ Projects ------
 st.write("---")
-st.subheader("Technical Skills")
+st.subheader("Projects")
 st.write("""
     Work in progress
 """)        
