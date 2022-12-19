@@ -40,13 +40,6 @@ with open(resume_file, "rb") as f:
     
 profile_pic = Image.open(profile_pic)
 
-st.markdown(
-    """
-    <link href="https://github.com/Jpaku93/Digital_CV/blob/main/assets/BGImage.jpg" rel="stylesheet">
-    """,
-    unsafe_allow_html=True,
-)
-
 # ------ HEROSECTION------
 col1, col2 =  st.columns([1, 3])
 with col1:
@@ -87,7 +80,7 @@ st.write("""
 st.write("---")
 st.subheader("Technical Skills")
 st.write("""   
-    - 👩‍💻 **Programming:** Python(Scikit-learn, Tensorflow, Keras, Pandas), C++(UnrealEngine, OpenGL), C#, SQL 
+    - 👩‍💻 **Programming:** SQL, Python(Scikit-learn, Tensorflow, Keras, Pandas), C++(UnrealEngine, OpenGL), C#(.Net, forms) 
     - 📊 **Visualization:** Streamlit, Power BI, Seaborn, Plotly
     - 📚 **Modeling:** Linear Regression, Logistic Regression, KNN, Decision Trees, Random Forest, SVM, Naive Bayes, K-Means, PCA, NLP, Deep Learning 
     - 🗃️ **Data engineering:** Azure, SSMS, MySQL
