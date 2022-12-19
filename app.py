@@ -40,7 +40,7 @@ with open(resume_file, "rb") as f:
 profile_pic = Image.open(profile_pic)
 
 # ------ HEROSECTION------
-col1, col2, col3 =  st.columns([1, 4])
+col1, col2, col3 =  st.columns([1,2, 3])
 with col1:
     st.image(profile_pic, width = 295)
 
