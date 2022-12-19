@@ -42,7 +42,7 @@ profile_pic = Image.open(profile_pic)
 # ------ HEROSECTION------
 col1, col2 =  st.columns([1, 3])
 with col1:
-    st.image(profile_pic, width = 280)
+    st.image(profile_pic, width = 295)
 
 with col2:
     st.title(NAME)
